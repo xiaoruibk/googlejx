@@ -1,0 +1,9 @@
+<?php
+/*
+代理地址开头必须添加https://或者http://
+不支持登录页面的cookie存储和验证，仅支持代理被墙的网站访问
+或者没有被墙的网站访问
+*/
+$proxy=array(
+'proxyurl'=>"https://www.google.com/",//代理地址
+);
